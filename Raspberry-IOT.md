@@ -96,14 +96,20 @@ To configure the IOT nodes to connect to the IBM Cloud IOT Platform instance, yo
  ![iot exe add iot api key view](img/iot-exe-add-iot-api-key-view.png)
 
 ## iot exe pi nodered iot api key
-Add the API Key name and the API token (which you saved from the Cloud IOT Platform, earlier)
+In a `ibmiot out` node, add the API Key name and the API token (which you saved from the Cloud IOT Platform, earlier)
 
  ![iot exe pi nodered iot api key](img/iot-exe-pi-nodered-iot-api-key.png)
 
 ## iot exe pi nodered iot out config
+
+Now add all the settings needed to match the device definition in the cloud IOT Platform for your Raspberry Pi (device type, device ID) - this allows events to be published
+
  ![iot exe pi nodered iot out config](img/iot-exe-pi-nodered-iot-out-config.png)
 
 ## iot exe pi nodered iot in config
+
+Set the IOT subscriber node to listen for incoming events
+
  ![iot exe pi nodered iot in config](img/iot-exe-pi-nodered-iot-in-config.png)
 
 ## iot exe sec iot dev tls
@@ -206,5 +212,13 @@ Now you're ready to publish messages using the IOT service
 ## iot exe pi nodered iot in commands
  ![iot exe pi nodered iot in commands](img/iot-exe-pi-nodered-iot-in-commands.png)
 
+ ## iot exe pi arduino split command
+ To receive the command on the Raspberry Pi, and interpret as a local action, check that the command type is known, and then convert the actions to appropriate settings for controlling local devices
+
+ ![iot exe pi arduino split command](img/iot-exe-pi-arduino-split-command.png)
+ ## iot exe pi arduino light command
+
+ ![iot exe pi arduino light command](img/iot-exe-pi-arduino-light-command.png)
+ 
 ## iot exe pi nodered iot view db
  ![iot exe pi nodered iot view db](img/iot-exe-pi-nodered-iot-view-db.png)
