@@ -185,6 +185,10 @@ and fill in the  information about your IBM Cloud IOT instance.
  ![iot exe events iot list](img/iot-exe-events-iot-list.png)
 
 ## iot exe pi nodered arduino out set
+
+In this node, you get to send signals to externally connected devices - attach an LED socket to the Arduino on the digital port #4 (marked D4 on the Grove board).
+Set the node to Digial (0/1), and type *4* into the Pin field.
+
  ![iot exe pi nodered arduino out set](img/iot-exe-pi-nodered-arduino-out-set.png)
 
 ## iot exe bmx iot in creds
