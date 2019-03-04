@@ -128,6 +128,10 @@ Now you're ready to publish messages using the IOT service
  ![iot exe pi nodered iot publish](img/iot-exe-pi-nodered-iot-publish.png)
 
 ## iot exe pi nodered iot out set
+
+*Note:* the default connection setting is to "Quickstart"; you need to select "Registered" instead,
+and fill in the  information about your IBM Cloud IOT instance.
+
  ![iot exe pi nodered iot out set](img/iot-exe-pi-nodered-iot-out-set.png)
 
 ## iot exe pi nodered iot in set
