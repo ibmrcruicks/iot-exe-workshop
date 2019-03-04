@@ -140,9 +140,10 @@ and fill in the  information about your IBM Cloud IOT instance.
 ## iot exe pi nodered iot first msg
  ![iot exe pi nodered iot first msg](img/iot-exe-pi-nodered-iot-first-msg.png)
 
-
+<!--
 ## iot exe bmx nodered nostart error
  ![iot exe bmx nodered nostart error](img/iot-exe-bmx-nodered-nostart-error.png)
+-->
 
 ## iot exe pi nodered install arduino
  ![iot exe pi nodered install arduino](img/iot-exe-pi-nodered-install-arduino.png)
