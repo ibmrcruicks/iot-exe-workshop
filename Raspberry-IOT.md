@@ -47,7 +47,7 @@ logs for the application
 
 ## iot exe pi nodered ide
 After NodeRED starts, you can connect to it via a browser using
-`https://<your pi name>.local:1880/`
+`http://<your pi name>.local:1880/`
 
  ![iot exe pi nodered ide](img/iot-exe-pi-nodered-ide.png)
 
